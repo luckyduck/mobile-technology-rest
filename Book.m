@@ -11,9 +11,7 @@
 @implementation Book
 
 - (id)initWithAttributes:(NSDictionary *)attributes
-{
-    NSLog(@"%@",attributes);
-    
+{    
     self = [super init];
     if (!self) {
         return nil;
